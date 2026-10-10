@@ -12,4 +12,6 @@ public class Categorie {
     @OneToMany(mappedBy = "categorie")
     List<Produit> produits;
 
+    public Categorie() {
+    }
 }
